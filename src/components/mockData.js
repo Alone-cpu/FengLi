@@ -25,7 +25,7 @@ export const pages = [
   { key: "detect", label: "缺陷识别", icon: Radar },
   { key: "risk", label: "风险评估", icon: AlertTriangle },
   { key: "workorder", label: "运维派单", icon: ClipboardList },
-  { key: "showcase", label: "成果展示", icon: FileText },
+  { key: "agent", label: "智能体", icon: Bot },
 ];
 
 export const kpis = [

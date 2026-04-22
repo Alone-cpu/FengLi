@@ -12,7 +12,7 @@ export default function DetectPage() {
     <div className="grid gap-6 xl:grid-cols-[1.1fr_1fr]">
       <Card className="rounded-lg">
         <CardHeader>
-          <SectionHeader title="缺陷识别中心" desc="展示模型识别结果、置信度与缺陷描述信息" />
+          <SectionHeader title="缺陷识别中心"  />
         </CardHeader>
         <CardContent>
           <div className="grid gap-4 md:grid-cols-2">
@@ -41,14 +41,16 @@ export default function DetectPage() {
 
       <Card className="rounded-lg">
         <CardHeader>
-          <SectionHeader title="识别详情与可视化预览" desc="后续可接入真实图像、热力图和检测框结果" />
+          <SectionHeader title="识别详情与可视化预览"/>
         </CardHeader>
         <CardContent className="space-y-5">
           <div className="flex h-[230px] items-center justify-center border-2 border-dashed border-slate-300 bg-slate-100 rounded-lg">
             <div className="text-center">
-              <Eye className="mx-auto h-10 w-10 text-slate-500" />
-              <div className="mt-3 text-sm font-medium text-slate-700">缺陷图像展示区域</div>
-              <div className="mt-1 text-xs text-slate-500">可接入红外图、可见光图、检测框与 Grad-CAM 热力图</div>
+              
+              <div className="mt-3 text-sm font-medium text-slate-700">
+                <img src="../../jiaPic.png"></img>
+              </div>
+              
             </div>
           </div>
           <div className="grid gap-3 sm:grid-cols-2">

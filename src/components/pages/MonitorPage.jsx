@@ -29,7 +29,7 @@ export default function MonitorPage() {
 
       <Card className="rounded-lg">
         <CardHeader>
-          <SectionHeader title="实时事件流" desc="模拟比赛演示时的动态调度与告警日志" />
+          <SectionHeader title="实时事件流" />
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
@@ -38,7 +38,7 @@ export default function MonitorPage() {
                 <div className="min-w-[54px] text-sm font-semibold text-blue-700">{item.time}</div>
                 <div className="space-y-1">
                   <div className="text-sm font-medium text-slate-900">{item.title}</div>
-                  <div className="text-xs text-slate-500">系统自动记录，可用于答辩时展示闭环流程可追踪性。</div>
+                  
                 </div>
               </div>
             ))}

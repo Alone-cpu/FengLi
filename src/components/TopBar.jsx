@@ -8,7 +8,7 @@ export default function TopBar({ currentPage, setCurrentPage }) {
   return (
     <div className="flex flex-wrap items-center justify-between gap-4 border border-slate-200 bg-white px-5 py-4 rounded-lg">
       <div>
-        <div className="text-sm text-slate-500">风电智能运维比赛展示系统</div>
+        <div className="text-sm text-slate-500">风电智能运维展示系统</div>
         <div className="text-xl font-semibold text-slate-950">{pages.find((p) => p.key === currentPage)?.label}</div>
       </div>
       <div className="flex flex-wrap items-center gap-3">

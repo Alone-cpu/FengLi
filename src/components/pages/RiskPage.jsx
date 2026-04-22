@@ -29,7 +29,7 @@ export default function RiskPage() {
       <div className="grid gap-6 xl:grid-cols-[1fr_1fr]">
         <Card className="rounded-lg">
           <CardHeader>
-            <SectionHeader title="缺陷类型分布" desc="帮助说明系统对多类型异常的覆盖能力" />
+            <SectionHeader title="缺陷类型分布"  />
           </CardHeader>
           <CardContent>
             <div className="h-[320px] bg-slate-50 p-4 rounded-lg">
@@ -49,7 +49,7 @@ export default function RiskPage() {
 
         <Card className="rounded-lg">
           <CardHeader>
-            <SectionHeader title="自动化风险建议" desc="用于比赛现场展示模型不是只识别，而是能给决策" />
+            <SectionHeader title="自动化风险建议"  />
           </CardHeader>
           <CardContent className="space-y-4">
             {[

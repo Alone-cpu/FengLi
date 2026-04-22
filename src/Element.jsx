@@ -1,6 +1,5 @@
-﻿import React, { useMemo, useState } from "react";
+import React, { useMemo, useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Eye, Radar, AlertTriangle, Wrench, CheckCircle2 } from "lucide-react";
 import TopBar from "@/components/TopBar";
@@ -11,7 +10,7 @@ import {
   DetectPage,
   RiskPage,
   WorkorderPage,
-  ShowcasePage,
+  AgentPage,
 } from "@/components/pages";
 
 export default function WindFarmCompetitionFrontend() {
@@ -27,16 +26,16 @@ export default function WindFarmCompetitionFrontend() {
         return <RiskPage />;
       case "workorder":
         return <WorkorderPage />;
-      case "showcase":
-        return <ShowcasePage />;
+      case "agent":
+        return <AgentPage />;
       default:
         return <DashboardPage />;
     }
   }, [currentPage]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-white to-blue-50 p-5 md:p-6">
-      <div className="mx-auto grid max-w-7xl gap-6 xl:grid-cols-[280px_1fr]">
+    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-white to-blue-50 p-4 md:p-5">
+      <div className="mx-auto grid max-w-[88rem] gap-6 xl:grid-cols-[280px_1fr]">
         <div className="min-h-[calc(100vh-3rem)]">
           <Sidebar currentPage={currentPage} setCurrentPage={setCurrentPage} />
         </div>

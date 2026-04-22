@@ -10,7 +10,7 @@ export default function WorkorderPage() {
     <div className="grid gap-6 xl:grid-cols-[1.2fr_0.9fr]">
       <Card className="rounded-lg">
         <CardHeader>
-          <SectionHeader title="智能运维任务列表" desc="体现从异常发现到工单流转的完整业务链路" action={<Button className="rounded bg-slate-950">新建工单</Button>} />
+          <SectionHeader title="智能运维任务列表"   />
         </CardHeader>
         <CardContent>
           <div className="overflow-hidden border border-slate-200 rounded-lg">
@@ -44,7 +44,7 @@ export default function WorkorderPage() {
 
       <Card className="rounded-lg">
         <CardHeader>
-          <SectionHeader title="派单策略说明" desc="答辩时可直接讲解系统如何提高运维效率" />
+          <SectionHeader title="派单策略说明"  />
         </CardHeader>
         <CardContent className="space-y-4">
           {[

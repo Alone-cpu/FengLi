@@ -9,8 +9,9 @@ export default function Sidebar({ currentPage, setCurrentPage }) {
   return (
     <div className="flex h-full flex-col bg-slate-950 p-4 text-white rounded-lg">
       <div className="mb-6 border border-white/10 bg-white/5 p-4 rounded-lg">
-        <div className="text-sm text-slate-300">项目名称</div>
-        <div className="mt-2 text-lg font-semibold leading-7">山地风电场叶片智能运维一体化系统</div>
+        <div className="mt-2 text-lg font-semibold leading-7">
+          山地风电场叶片<br />智能运维一体化系统
+        </div>
       </div>
 
       <div className="space-y-2">
@@ -35,10 +36,7 @@ export default function Sidebar({ currentPage, setCurrentPage }) {
         })}
       </div>
 
-      <div className="mt-6 border border-blue-500/20 bg-gradient-to-br from-blue-600/20 to-cyan-400/10 p-4 rounded-lg">
-        <div className="text-sm text-blue-100">参赛包装建议</div>
-        <div className="mt-2 text-sm leading-6 text-slate-200">首页用总览驾驶舱，答辩演示按"识别—评估—派单—闭环"顺序切页，更容易打动评委。</div>
-      </div>
+      
 
       <div className="mt-auto border border-white/10 bg-white/5 p-4 rounded-lg">
         <div className="flex items-center justify-between">
