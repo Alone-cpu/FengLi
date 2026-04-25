@@ -47,9 +47,9 @@ export default function DetectPage() {
           <div className="flex h-[230px] items-center justify-center border-2 border-dashed border-slate-300 bg-slate-100 rounded-lg">
             <div className="text-center">
               
-              <div className="mt-3 text-sm font-medium text-slate-700">
-                <img src="../../jiaPic.png"></img>
-              </div>
+              
+                <img src="../../jiaPic.jpg" className="w-[461px] h-[228px] object-cover rounded-md shadow-sm"></img>
+              
               
             </div>
           </div>
